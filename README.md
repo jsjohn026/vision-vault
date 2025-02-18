@@ -28,33 +28,33 @@
 
 ## Features Coming Soon:
 
-**Likes**
+- [ ] **Likes**
 
 The ability to upvote one project idea over another with likes as projects develop
 
-**Gallery**
+- [ ] **Gallery**
 
 A page showcasing previous projects from 100 Devs students
 With likes
 With commenting
 
-**Auth**
+- [ ] **Auth**
 
 Login and route available only to those logged in
 
-**Editing**
+- [ ] **Editing**
 
 Ability to add to and edit each project idea
 
-**Movement**
+- [ ] **Movement**
 
 Ability to drag and move project idea tiles
 
-**Color Code**
+- [ ] **Color Code**
 
 Assign colors to each tile so projects can be grouped by topic
 
-**Chat Idea**
+- [ ] **Chat Idea**
 
 Capture ideas from chat and have GPT convert to a project card
 
