@@ -3,7 +3,6 @@ import cors from "cors";
 import "dotenv/config"
 import path from "path"
 import { fileURLToPath } from "url"
-import { Client } from 'appwrite';
 const app = express()
 const PORT = process.env.PORT || 8000
 const __filename = fileURLToPath(import.meta.url);
