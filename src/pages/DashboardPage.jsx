@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import styles from "./DashboardPage.module.css";
 import { Link } from "react-router-dom";
-import { PROJECT_ID, DATABASE_ID, COLLECTION_ID } from "../shhh";
+// import { PROJECT_ID, DATABASE_ID, COLLECTION_ID } from "../shhh";
+// import "dotenv/config"
 import { Client, Databases, ID } from "appwrite";
 
 const client = new Client()
     .setEndpoint('https://cloud.appwrite.io/v1')
-    .setProject(PROJECT_ID);
+    .setProject(import.meta.env.VITE_REACT_APP_PROJECT_ID);
 
 const databases = new Databases(client);
 const form = document.querySelector('form')
@@ -14,8 +15,8 @@ const form = document.querySelector('form')
 async function addVisionsToDom(){
   document.querySelector('ul').innerHTML = ""
   let response = await databases.listDocuments(
-    DATABASE_ID,
-    COLLECTION_ID,    
+    import.meta.env.VITE_REACT_APP_DATABASE_ID,
+    import.meta.env.VITE_REACT_APP_COLLECTION_ID,    
   )
   console.log(response.documents[0])
   response.documents.forEach(vision => {
@@ -51,8 +52,8 @@ async function addVisionsToDom(){
 
   async function removeVision(id) {
     const result = await databases.deleteDocument(
-      DATABASE_ID,
-      COLLECTION_ID,
+      import.meta.env.VITE_REACT_APP_DATABASE_ID,
+      import.meta.env.VITE_REACT_APP_COLLECTION_ID,
       id
     )
     document.getElementById(id).remove()
@@ -87,8 +88,8 @@ const DashboardPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const vision = databases.createDocument(
-      DATABASE_ID,
-      COLLECTION_ID,
+      import.meta.env.VITE_REACT_APP_DATABASE_ID,
+      import.meta.env.VITE_REACT_APP_COLLECTION_ID,
       ID.unique(),
       { "app-name": e.target.appName.value,
         "date-added": e.target.dateAdded.value,
