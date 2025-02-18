@@ -10,12 +10,12 @@
 [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
 
 ## Description:
-[Vision Vault](https://vision-vault-3n86.onrender.com/) is a place where 100 Devs can narrow down ideas for MVP Projects by:
-+ discussing with Project Doctor, a thought partner, powered by Chat GPT
-+ storing developing ideas in simple snapshots
-+ bank useful feedback with social interactions
-+ getting inspiration from graduate MVPs
-
+[Vision Vault](https://vision-vault-3n86.onrender.com/) is a place where 100 Devs can narrow down ideas for MVP Projects. 
++ Stuck? Discuss with Project Doctor, a thought partner, powered by Chat GPT.
++ Got too many ideas? Store developping ideas in simple snapshots.
++ Not sure if your ideas make sense? Bank useful feedback with social interactions.
++ Need Insp? Check out completed MVPs from 100 Devs graduates!
+Harness the power of "community-taught" and don't do it alone. 
 
 ## Updates Needed:
 
