@@ -1,7 +1,6 @@
 # Vision Vault
 
 [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
-![Appwrite](https://img.shields.io/badge/Appwrite-%23FD366E.svg?style=for-the-badge&logo=appwrite&logoColor=white)
 
 ![Appwrite](https://img.shields.io/badge/appwrite-F02E65.svg?style=[style_name]&logo=appwrite&logoColor=white)
 [![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](#)
