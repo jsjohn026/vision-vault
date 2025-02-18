@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "./ChatGPTPage.module.css";
+import { Link } from "react-router-dom";
 
 const ChatGPTPage = () => {
   const [ value, setValue ] = useState("")
@@ -82,6 +83,10 @@ const ChatGPTPage = () => {
       </section>
       <section className={styles.main}>
         {!currentTitle && <h1 className={styles.heading}>"Project Doctor" GPT</h1>}
+        <div className={styles.chatSection}>
+        <p className={styles.chatDirect}>All done?</p>
+        <Link className={styles.chatButton} to="/">Return to Dashboard</Link>
+      </div>
         <ul className={styles.feed}>
           {currentChat?.map((chatMessage, index) => <li className={styles.feedLi} key={index}>
             <p className={styles.feedPRole}>{chatMessage.role}</p>
