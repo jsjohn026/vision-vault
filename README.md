@@ -1,6 +1,7 @@
 # Vision Vault
 
 ![Static Badge](https://img.shields.io/badge/:badgeContent)
+[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
 
 ## Description:
 [Vision Vault](https://vision-vault-3n86.onrender.com/) is a place where 100 Devs can narrow down ideas for MVP Projects by:
