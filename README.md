@@ -15,6 +15,7 @@
 + Got too many ideas? Store developping ideas in simple snapshots.
 + Not sure if your ideas make sense? Bank useful feedback with social interactions.
 + Need Insp? Check out completed MVPs from 100 Devs graduates!
+
 It can be a challenge to decide on a project to spend at least 100 hours on. Don't do it alone. Harness the power of "community-taught" and have a place to store and sharpen amazing ideas as they emerge! 
 
 ## Updates Needed:
