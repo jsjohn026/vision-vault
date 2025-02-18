@@ -30,31 +30,17 @@
 
 - [ ] **Likes** : The ability to upvote one project idea over another with likes as projects develop
 
-- [ ] **Gallery**
+- [ ] **Gallery** : A page showcasing previous projects from 100 Devs students with likes and commenting
 
-    A page showcasing previous projects from 100 Devs students
-    With likes
-    With commenting
+- [ ] **Auth** : Login and route available only to those logged in
 
-- [ ] **Auth**
+- [ ] **Editing** : Ability to add to and edit each project idea
 
-    Login and route available only to those logged in
+- [ ] **Movement** : Ability to drag and move project idea tiles
 
-- [ ] **Editing**
+- [ ] **Color Code** : Assign colors to each tile so projects can be grouped by topic
 
-    Ability to add to and edit each project idea
-
-- [ ] **Movement**
-
-    Ability to drag and move project idea tiles
-
-- [ ] **Color Code**
-
-    Assign colors to each tile so projects can be grouped by topic
-
-- [ ] **Chat Idea**
-
-    Capture ideas from chat and have GPT convert to a project card
+- [ ] **Chat Idea** : Capture ideas from chat and have GPT convert to a project card
 
 # React + Vite
 
