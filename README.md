@@ -1,11 +1,8 @@
-# React + Vite
+# Vision Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Static Badge](https://img.shields.io/badge/:badgeContent)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Description:
 
 
 # Updates Needed:
@@ -13,6 +10,7 @@ Currently, two official plugins are available:
 - [x] Clear forms after submissions
 - [ ] Navigation to return to dashboard from anywhere
 - [ ] Project idea likes
+- [ ] Improve form UI
 
 
 # Features Coming Soon:
@@ -39,3 +37,12 @@ Assign colors to each tile so projects can be grouped by topic
 
 **CHAT IDEA**
 Capture ideas from chat and have GPT convert to a project card
+
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
