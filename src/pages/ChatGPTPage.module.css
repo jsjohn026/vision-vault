@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+
+* {
+  color: #fff;
+  font-family: "Open Sans", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: #343541;
+  display: flex;
+}
+
+.sideBar {
+  background-color: #202123;
+  height: 100vh;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.newChatButton {
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.chatNav {
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+.history {
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+  font-family: "Open Sans", serif;
+  font-weight: 400;
+}
+
+.historyLi {
+  list-style-type: none;
+  padding: 15px 0;
+  cursor: pointer;
+  font-family: "Open Sans", serif;
+  font-weight: 400;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  color: #fff;
+  font-family: "Open Sans", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  padding: 10px;
+}
+
+.bottomSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+
+.inputBox {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0, 0.05) 0 54px 55px,
+    rgba(0,0,0, 0.05) 0 -12px 30px,
+    rgba(0,0,0, 0.05) 0 4px 6px,
+    rgba(0,0,0, 0.05) 0 12px 3px,
+    rgba(0,0,0, 0.05) 0 -3px 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.chatSubmit {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  cursor: pointer;
+}
+
+.feed {
+  overflow: scroll;
+  width: 100%;
+  padding: 0;
+}
+
+.feedLi {
+  display: flex;
+  background-color: #444654;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.feedP {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  text-align: left;
+}
+
+.feedPRole {
+  min-width: 100px;
+}
