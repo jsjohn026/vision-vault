@@ -28,9 +28,7 @@
 
 ## Features Coming Soon:
 
-- [ ] **Likes**
-
-    The ability to upvote one project idea over another with likes as projects develop
+- [ ] **Likes** : The ability to upvote one project idea over another with likes as projects develop
 
 - [ ] **Gallery**
 
