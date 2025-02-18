@@ -3,7 +3,12 @@
 ![Static Badge](https://img.shields.io/badge/:badgeContent)
 
 ## Description:
-[Vision Vault](https://vision-vault-3n86.onrender.com/) is a place where 100 Devs can work with a thought partner on narrowing down ideas for MVP Projects, store developing project ideas, get useful feedback along the way, and check out graduate MVPs for inspiration!
+[Vision Vault](https://vision-vault-3n86.onrender.com/) is a place where 100 Devs can narrow down ideas for MVP Projects by:
++ discussing with Project Doctor, a thought partner, powered by Chat GPT
++ storing developing ideas in simple snapshots
++ bank useful feedback with social interactions
++ getting inspiration from graduate MVPs
+
 
 ## Updates Needed:
 
