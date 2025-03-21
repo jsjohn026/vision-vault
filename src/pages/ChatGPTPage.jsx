@@ -64,11 +64,8 @@ const ChatGPTPage = () => {
     }
   }, [message, currentTitle])
 
-  console.log(previousChats)
-
   const currentChat = previousChats.filter(previousChat => previousChat.title === currentTitle)
   const uniqueTitles = Array.from(new Set(previousChats.map(previousChat => previousChat.title)))
-  console.log(uniqueTitles)
 
   return (
     <div className={styles.app}>

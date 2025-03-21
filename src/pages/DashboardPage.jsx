@@ -18,7 +18,6 @@ async function addVisionsToDom(){
     import.meta.env.VITE_REACT_APP_DATABASE_ID,
     import.meta.env.VITE_REACT_APP_COLLECTION_ID,    
   )
-  console.log(response.documents[0])
   response.documents.forEach(vision => {
     const li = document.createElement('li')
     li.id = vision.$id
